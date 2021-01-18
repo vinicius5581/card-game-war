@@ -19,6 +19,10 @@ export default class Deck {
       this.cards[i] = oldValue
     }
   }
+
+  getHTML() {
+    return this.cards.map(card => card.getHTML())
+  }
 }
 
 class Card {
