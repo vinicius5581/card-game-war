@@ -7,8 +7,6 @@ const text = document.querySelector('.text');
 const playerDeckElement = document.querySelector('.player-deck');
 const computerDeckElement = document.querySelector('.computer-deck');
 
-debugger
-
 // Player decks
 let playerDeck;
 let computerDeck;
